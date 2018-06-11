@@ -4,6 +4,7 @@
       <meta charset="UTF-8">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
   </head>
+
   <body>
     <header>
 
@@ -16,39 +17,51 @@
       </nav>
 
     </header>
-    <!-- Maps -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51169.03574985003!2d-74.0076375661002!3d40.73682737404876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bcc22d8dc3%3A0x872c99e6ecf2ca89!2s123+W+18th+St%2C+New+York%2C+NY+10011!5e0!3m2!1sen!2sus!4v1528685727471" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-    <!-- Contact Form -->
-    <form action="#" method="post">
-      <label for="fullname">Name</label>
-      <input type="text" id="fullname" name="fullname" placeholder="your name" required>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="your email" required>
-      <label for="phone">Phone</label>
-      <input type="tel" id="phone" name="phone" placeholder="your phone">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="8" cols="80"></textarea>
-      <input type="submit" value="send">
-    </form>
-
-    <section>
-      <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
-    </section>
-
-    <section>
+    <section id="featured-property">
+      <figure>
+        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+        <figcaption>123 West 18th St, New York, NY -- Photo by Denise Richards</figcaption>
+      </figure>
       <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
     </section>
-    <!-- Promo Video -->
-    <video controls>
-      <source src="videos/real-estate.mp4" type="video/mp4">
-      <source src="videos/real-estate.ovg" type="video/ogg">
-      Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgrade your browser</a>
-    </video>
+
+    <section id="contact form">
+    <!-- Maps -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51169.03574985003!2d-74.0076375661002!3d40.73682737404876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bcc22d8dc3%3A0x872c99e6ecf2ca89!2s123+W+18th+St%2C+New+York%2C+NY+10011!5e0!3m2!1sen!2sus!4v1528685727471" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      <!-- Contact Form -->
+      <form action="#" method="post">
+        <label for="fullname">Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="your name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your email" required>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="your phone">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="8" cols="80"></textarea>
+        <input type="submit" value="send">
+      </form>
+
+    </section>
+
+    <section id="promotion">
+      <!-- Promo Video -->
+      <figure></figure>
+        <video controls>
+          <source src="videos/real-estate.mp4" type="video/mp4">
+          <source src="videos/real-estate.ovg" type="video/ogg">
+          Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="_blank">Please upgrade your browser</a>
+        </video>
+        <figcaption>
+          Exceptional Realty Group Promotional Video -Source: archived.org
+        </figcaption>
+      </figure>
+    </section>
 
     <footer>
-
+      &copy; 2018 Exceptional Realty Group. All Rights Reserved.
     </footer>
   </body>
 </html>
